@@ -1,0 +1,90 @@
+
+
+.navbar-brand > span{
+    color: #12E67C;
+    font-weight: bold;
+    font-size: large;
+
+}
+.navbar li a{
+    color: #E6C912;
+}
+.navbar-brand{
+    color: black;
+}
+.bg-primery{
+    color: #12E67C;
+}
+
+.fs-2{
+    color: #E6C912;
+}
+
+.dropdown:hover >.dropdown-menu .dropend:hover >.dropdown-menu{
+    display: block;
+    position: absolute;
+    top: 10%;
+    margin-bottom: .125rem;
+    margin-left: 9.125rem;
+
+
+}
+@media  and(max-width:769px) {
+    .dropend:hover >.dropdown-menu{
+        position: absolute;
+        top: 0;
+        left: 100%;
+        margin-left: .125rem;
+    
+    }
+
+    
+}
+#page-title{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f8f8f8;
+}
+.color-scheme-dark{
+    color: #555555;
+
+}
+.btn-primary{
+    background-color: #12E67C ;
+    border-style: none;
+}
+.btn-danger{
+    background-color: #E6C912;
+    border-style: none;
+    
+}
+
+.image{
+ height: 300px;
+ width: 300px; 
+ justify-content: center;  
+ align-items: center;
+
+
+}
+
+.card{
+    height: 500px;
+    width: 300px;
+    align-items: center;
+  
+}
+
+@media (max-width: 576px) {
+
+    .center-mobile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+      
+    }
+    .card {
+        width: 100%;
+
+  }
